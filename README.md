@@ -62,7 +62,7 @@ eye-disease-detection/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/eye-disease-detection.git
+git clone https://github.com/elentajacob/eye-disease-detection.git
 ```
 
 ### 2. Open in Google Colab
