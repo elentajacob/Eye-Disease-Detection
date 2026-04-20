@@ -1,8 +1,9 @@
 # Dataset (~2GB, Kermany OCT images) — download separately, see README
 dataset/
 
-# Notebooks (excluded for now)
-notebooks/
+# Notebooks — exclude EDA, keep feature extraction and modeling notebooks
+notebooks/01_EDA.ipynb
+notebooks/.ipynb_checkpoints/
 
 # ===== Large files over GitHub's 100 MB limit (see README for download links) =====
 checkpoints/rf_model.pkl
