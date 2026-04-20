@@ -4,17 +4,10 @@ dataset/
 # Notebooks (excluded for now)
 notebooks/
 
-# Extracted features, model checkpoints, and result outputs
-features/
-checkpoints/
-results/
-*.npy
-*.npz
-*.pkl
-*.pt
-*.pth
-*.ckpt
-*.h5
+# ===== Large files over GitHub's 100 MB limit (see README for download links) =====
+checkpoints/rf_model.pkl
+checkpoints/svm_model.pkl
+features/train_features.npy
 
 # ===== Python =====
 __pycache__/
