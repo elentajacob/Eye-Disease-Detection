@@ -1,7 +1,60 @@
-dataset/ 
-features/ 
-checkpoints/ 
-*.npy 
-*.pkl 
-*.pdf 
-*.docx 
+# Dataset (~2GB, Kermany OCT images) — download separately, see README
+dataset/
+
+# ===== Large files over GitHub's 100 MB limit (see README for download links) =====
+checkpoints/rf_model.pkl
+checkpoints/svm_model.pkl
+checkpoints/resnet50_best.pth
+checkpoints/resnet50_phase1_best.pth
+features/train_features.npy
+
+# ===== Python =====
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+
+# ===== LaTeX (proposal / report build artifacts) =====
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.toc
+
+# ===== Editors =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
