@@ -3,7 +3,6 @@
 A comparative study of classical machine learning and deep learning approaches for classifying retinal diseases from OCT scan images.
 
 **CS 6140 — Machine Learning | Northeastern University**
-
 **Elenta Suzan Jacob | Rahul Gudivada**
 
 ---
@@ -65,10 +64,10 @@ The dataset, pre-extracted features, and trained model checkpoints are hosted on
 [Download here](https://drive.google.com/drive/folders/1mhmrsUJfUtvrlel-6HaYZQ-XroUJ_Lf6?usp=drive_link) — place the `OCT2017` folder inside `dataset/`
 
 **Features** (pre-extracted ResNet50 2048-d vectors):
-[Download here](https://drive.google.com/drive/folders/1ShUhgIiZkCJuYweiRymWKnY0iupWpv3U?usp=sharing) — place all `.npy` files inside `features/`
+[Download here](https://drive.google.com/drive/folders/1PfT1Db0MWTdWaBYjXaCZ2hhBVTeJOapF?usp=sharing) — place all `.npy` files inside `features/`
 
 **Checkpoints** (trained model files):
-[Download here](https://drive.google.com/drive/folders/1PfT1Db0MWTdWaBYjXaCZ2hhBVTeJOapF?usp=sharing) — place all model files inside `checkpoints/`
+[Download here](https://drive.google.com/drive/folders/1ShUhgIiZkCJuYweiRymWKnY0iupWpv3U?usp=sharing) — place all model files inside `checkpoints/`
 
 Your folder should look like this after downloading:
 
